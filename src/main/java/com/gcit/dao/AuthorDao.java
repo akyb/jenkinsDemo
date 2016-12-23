@@ -35,7 +35,7 @@ public class AuthorDao {
 		
 		Author author = new Author();
 		author.setAuthorId(1);
-		author.setAuthorName("john smith");
+		author.setAuthorName("Jane Dow");
 		return author;
 	}
 }
