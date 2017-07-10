@@ -1,7 +1,6 @@
 package com.gcit.domain;
 
 public class Author {
-	
 	int authorId;
 	String authorName;
 	
