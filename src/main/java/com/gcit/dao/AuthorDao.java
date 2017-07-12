@@ -25,8 +25,8 @@ public class AuthorDao {
 		}
 
 		Connection conn = (Connection) DriverManager.getConnection(
-				"jdbc:mysql://localhost:3306/library",
-				"root", "root");
+				"jdbc:mysql://gcitsampledb.c0u245fsr0ye.us-east-1.rds.amazonaws.com:3306/library",
+				"gcitsampledb", "gcitsampledb");
 		return conn;
 	}
 
